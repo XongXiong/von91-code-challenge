@@ -1,0 +1,129 @@
+body {
+    background-color: #444;
+}
+
+/* Top Section CSS */
+.topSection {
+    position: relative;
+    color: white;
+}
+
+.topSection .manStand {
+    max-width: 100%;
+    opacity: 0.70;
+    filter: contrast(80%);
+}
+
+.topSection .manStandHead {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 19.5%;
+}
+
+.topSection .v91 {
+        position: absolute;
+        top: 30.5%;
+        left: 5.5%;
+        height: 85px;
+}
+
+.topSection .headText {
+        font-family: "Arial Black";
+        text-transform: uppercase;
+        position: absolute;
+        top: 30%;
+        left: 72.5%;
+}
+
+.topSection .left {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    height: 35px;
+}
+
+.topSection .manStandText {
+        font-size: 100px;
+        font-family: Palatino;
+        position: absolute;
+        top: 30%;
+        width: 60%;
+        text-align: center;
+        left: 19%;
+        font-weight: bold;
+}
+
+.topSection .right {
+    position: absolute;
+    top: 50%;
+    left: 93.5%;
+    height: 35px;
+}
+/* End Top Section CSS */
+
+/* Body Section CSS */
+.bodySection {
+    background-color: white;
+    font-family: Palatino;
+    font-size: 40px;
+    hyphens: auto;
+    line-height: 1.75;
+}
+
+.bodySection .bodyContainer {
+    padding: 60px 230px 200px 230px;
+}
+
+.bodySection .manDesk {
+    float: right;
+    margin: 20px 20px 20px 20px;
+    height: 850px;
+}
+/* End Body Section CSS */
+
+/* Contact Section CSS */
+.contactSection {
+    position: relative;
+    background-color: #444;
+    height: 265px;
+    color: white;
+    font-family: Palatino;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contactSection p {
+    margin: 0px;
+}
+
+.contactSection .address {
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    border-top: 3px solid white;
+    height: 50%;
+    width: 33%;
+    padding-top: 30px;
+}
+
+.contactSection .v91 {
+    height: 85px;
+    float: left;
+    padding-right: 30px;
+}
+
+.contactSection .socialMedia {
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    border-top: 3px solid white;
+    height: 50%;
+    width: 33%;
+}
+
+.contactSection .socialIcons {
+    height: 40px;
+    padding: 30px 15px 0px 15px;
+}
+/* End Contact Section CSS */
